@@ -1,0 +1,20 @@
+sort1 uses: Selection sort
+
+How do you know?:
+- General characteristics: This algorithm iterates and selects the smallest element and places it in the appropriate position.
+- Time complexity: O(n^2), because it requires many iterations.
+- Performance with reversed list: When sorting a reversed list, sort1 is slow because it requires moving large elements to the end of the list many times.
+
+sort2 uses: Bubble sort
+
+How do you know?:
+- General characteristics: This algorithm compares each pair of adjacent elements and swaps them if they are not in the correct order.
+- Time complexity: O(n^2), because it requires many comparisons and swaps.
+- Performance with reversed list: When sorting a reversed list, sort2 is relatively slow because it requires many swaps.
+
+sort3 uses: Merge sort
+
+How do you know?:
+- General characteristics: This algorithm splits the list into two parts, sorts each part and merges them together in the correct order.
+- Time complexity: O(n log n), which is a more efficient algorithm for large lists.
+- Performance with reversed lists: Sorting a reversed list with sort3 still works well because this algorithm does not depend on the original order of the list.
