@@ -1,0 +1,160 @@
+/* General CSS */
+
+body, html {
+    background: radial-gradient(circle, rgb(236, 174, 244) 0%, rgb(211, 194, 205) 100%) !important;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Lora", sans-serif;
+    background: #fff;
+    color: #000;
+    overflow-x: hidden; /* hide overflow on the sides */
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    color: #fff !important;
+}
+
+/* Buttons */
+
+a:hover {
+    color: #000000 !important;
+}
+
+.button {
+    border-radius: 1rem;
+    border: none;
+    background: radial-gradient(circle, rgba(120,167,97,1) 0%, rgba(67,112,63,1) 100%);
+    transition: 0.3s;
+}
+
+.button:hover {
+    color: #fff !important;
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.5);
+    transform: scale(1.05);
+}
+
+/* Titles */
+
+.main-title {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.main-title h1 {
+    font-size: 40px;
+}
+
+/* Navigation Menu */
+
+.navbar {
+    position: relative;
+    background: linear-gradient(to left, #fc8e51, #fa61f9);
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 60px;
+}
+
+.first-letter {
+    font-weight: 700;
+    color: #000;
+}
+
+.navbar-brand:hover {
+    color: #ff0000 !important;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-toggler:hover {
+    background-color: #fffdfd;
+}
+
+.navbar-collapse {
+    text-align: center; /* centers the navigation menu when collapsed */
+}
+
+.navbar ul li {
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+}
+
+.navbar ul li a {
+    position: relative;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1.6px;
+}
+
+.is-active {
+    border-bottom: 2px solid #ffffff;
+}
+
+.is-active:hover {
+    border-bottom: 2px solid #fe3700;
+}
+
+/* Content */
+.content-title{
+    font-size:xxx-large;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Footer */
+
+.footer {
+    position: fixed; /* using fixed position to make the footer stay at the bottom */
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to left, #fc8e51, #fa61f9);
+}
+
+.footer .socials .footer-list {
+    position: relative;
+    margin: 0 0 0 0;
+    display: inline-block;
+}
+
+.footer .socials .footer-list li {
+    float: left;
+    margin-right: 10px;
+}
+
+.footer .socials .footer-list li a {
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    color: #ffffff !important;
+}
+
+.footer .socials .footer-list li a:hover {
+    color: #000000 !important;
+}
+
