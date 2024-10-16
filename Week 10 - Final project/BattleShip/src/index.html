@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bắn Thuyền</title>
+    <link href="./css/output.css" rel="stylesheet">
+    
+</head>
+<body class="bg-blue-500 flex items-center justify-center h-screen">
+    <div class="container mx-20">
+        <h1 class="text-white text-4xl font-black text-center mb-6">BATTLE SHIP</h1>
+        <div class="flex justify-between">
+            <div class="player-area">
+                <h2 class="text-white text-center font-bold text-xl mb-4">Player</h2>
+                <div class="grid grid-cols-10 gap-0 player-grid"></div>
+                <p id="statusComputerMessage" class="text-white mt-4"></p>
+            </div>
+            
+            
+            <div class="computer-area">
+                <h2 class="text-white text-center font-bold text-xl mb-4 hidden">Computer</h2>
+                <div class="grid grid-cols-10 gap-0 computer-grid"></div>
+                <p id="statusPlayerMessage" class="text-white mt-4"></p>
+            </div>
+        </div>
+        <div class="text-center mt-6">
+            <button id="startGame" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 relative">Bắt Đầu
+            </button>
+            
+            <p id="statusMessage" class="text-white mt-4"></p>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
